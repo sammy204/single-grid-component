@@ -1,0 +1,114 @@
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: initial;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+
+
+/* style for the unordered-list*/
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+/*style to the body of the page*/
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display: grid;
+  place-items:center;
+  background-color: #e5eff5;
+  color: white;
+}
+
+/* style to the header2(h2)*/
+h2 {
+  font-size:20px;
+}
+/*style to the paragraph*/
+p {
+  line-height: 30px;
+  letter-spacing: -0.2px;
+}
+/*style to the container*/
+.container {
+  width: 100%;
+  max-width: 635px;
+}
+/*style to the section*/
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.1488);
+}
+
+header,
+.subscription,
+.why-us {
+  padding: 20px;
+} 
+
+header {
+  grid-column: 1/-1;
+}
+
+header {
+  background-color: white;
+}
+ h1 {
+  font-size:25px;
+  color: #2ab2af;
+}
+header h2 {
+  color: #c0df34;
+}
+p {
+  color: #98a6bd;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  display: flex;
+  flex-direction: column;
+}
+.subscription p{
+  color: #95d9d7;
+  margin-top: 1.125rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+}
+.subscription p:first-of-type span {
+  color: white;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  font-size: 2rem;
+  padding-right: 0.6875rem;
+}
+.subscription button {
+  background-color: #c0df34;
+  border: none;
+  padding: 15px;
+  color: inherit;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.why-us {
+  background-color: #4abfbc;
+
+}
+.why-us ul {
+  margin-top:10px;
+}
+.why-us ul li {
+  font-size: ;
+  line-height:25px;
+  color: #d2efee;
+}
